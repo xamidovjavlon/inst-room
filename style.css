@@ -1,0 +1,92 @@
+@import url(https://fonts.google.com/specimen/Roboto?preview.text=playfair%20displey&preview.text_type=custom&query=playfair+display);
+:root{
+    font-family: 'Roboto', sans-serif; 
+    --dark: #fa4659;
+    --exDark: #2c2c2c;
+    --dect:  #000000;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+}
+
+a{
+    font-family: var(Roboto);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: var(--dark); */
+}
+body{
+    line-height: 1.4;
+    color: var(--dark);
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+
+
+
+header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)) center/cover no-repeat fixed;
+    background-image: url(ant.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ nav{
+    background-color: #000000;
+    padding: 1.2rem;
+ }
+ .navigation{
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .navigation .logo a{
+    color: #fff;
+    font-size: 2rem;
+    display: block;
+    text-decoration: none;
+    font-family: var(--dect);
+    letter-spacing: 1px;
+ }
+ .navbar-nav{
+    padding: o.8rem 0 0.2rem ;
+ }
+ .navbar-nav a{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #ffff;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    transition: opacity 0.5s ease;
+ }
+ .navbar-nav a:hover{
+     opacity: 0.7s;
+ }
+ .banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+    margin-top: 9%;
+     
+ }
+.banner-title{
+    font-size: 5rem;
+    font-family: var(--dect);
+}
